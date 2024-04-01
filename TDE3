@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relâmpago McQueen e o Filme Carros</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Logo do filme Carros">
+    <h1>Relâmpago McQueen e o Filme Carros</h1>
+  </header>
+
+  <main>
+    <section>
+      <img src="relampago_mcqueen.jpg" alt="Imagem do Relâmpago McQueen">
+      <h2>Sobre o Relâmpago McQueen</h2>
+      <p>O Relâmpago McQueen é o protagonista do filme Carros, uma animação da Pixar. Ele é um carro de corrida que vive diversas aventuras ao longo dos filmes.</p>
+    </section>
+    <section>
+      <img src="carros_filme.jpg" alt="Imagem do Filme Carros">
+      <h2>Sobre o Filme Carros</h2>
+      <p>Carros é um filme de animação produzido pela Pixar Animation Studios e lançado pela Walt Disney Pictures em 2006. O filme conta a história de Relâmpago McQueen, um carro de corrida que acaba preso em uma pequena cidade no deserto.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Relâmpago McQueen e o Filme Carros</p>
+  </footer>
+
+</body>
+</html>
