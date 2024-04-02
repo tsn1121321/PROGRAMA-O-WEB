@@ -1,81 +1,98 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+  }
+  
+  header img {
+    max-width: 200px;
+    display: inline-block;
+    margin-right: 25px;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  section {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
 
-header, footer {
-  background-color: #333;
-  color: white;
-  padding: 20px;
-}
-
-.container {
-  display: flex;
-  margin-left: 20px;
-  align-items: center;
-}
-
-header img {
-  max-width: 200px;
-  display: inline-block;
-  margin-right: 25px;
-}
-
-main {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 20px;
-  padding: 20px;
-}
-
-section {
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-
-section img {
-  width: 100%;
-  height: auto;
-}
-
-footer {
-  background-color: #333;
-  color: white;
-  padding: 40px 20px;
-}
-
-.footer-content {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 20px;
-}
-
-.footer-about,
-.footer-contact,
-.footer-social {
-  padding: 20px;
-}
-
-.footer-bottom {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.footer-social ul {
-  padding: 0;
-  list-style-type: none;
-}
-
-.footer-social ul li {
-  margin-bottom: 10px;
-}
-
-.footer-social ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-.footer-social ul li a:hover {
-  text-decoration: underline;
-}
+  #btnEnviar {
+    width: auto;
+    height: 50px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 250px;
+    margin-left: 300px;
+  }
+  
+  #btnEnviar:hover {
+    background-color:darkred
+  }
+  
+  section img {
+    width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+  }
+  
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .footer-about,
+  .footer-contact,
+  .footer-social {
+    padding: 20px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .footer-social ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .footer-social ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-social ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-social ul li a:hover {
+    text-decoration: underline;
+  }
