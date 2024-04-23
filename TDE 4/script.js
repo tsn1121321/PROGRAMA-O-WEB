@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    // Carregamento do conteúdo por scroll
     $(window).scroll(function() {
         if ($(this).scrollTop() > 100) {
             $('.nav-links').addClass('sticky');
@@ -8,7 +7,6 @@ $(document).ready(function() {
         }
     });
 
-    // Suavização do scroll para os links do menu
     $('a[href^="#"]').on('click', function(event) {
         var target = $($(this).attr('href'));
         if (target.length) {
@@ -19,7 +17,6 @@ $(document).ready(function() {
         }
     });
 
-    // Scroll suave para o formulário de contato
     $('button[href^="#contact"]').on('click', function(event) {
         var target = $('#contact');
         if (target.length) {
